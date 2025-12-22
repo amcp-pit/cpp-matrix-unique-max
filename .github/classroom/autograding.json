@@ -1,0 +1,74 @@
+{
+  "tests": [
+    {
+      "name": "Test 1 ",
+      "setup": "",
+      "run": "timeout 1 ./uniquemax tests/matrix1.txt",
+      "input": "",
+      "output": "20",
+      "comparison": "Exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 2",
+      "setup": "",
+      "run": "timeout 1 ./uniquemax tests/matrix2.txt",
+      "input": "",
+      "output": "11",
+      "comparison": "Exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 3",
+      "setup": "",
+      "run": "timeout 1 ./uniquemax tests/matrix3.txt",
+      "input": "",
+      "output": "7",
+      "comparison": "Exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 4",
+      "setup": "",
+      "run": "timeout 1 ./uniquemax tests/matrix4.txt",
+      "input": "",
+      "output": "empty",
+      "comparison": "Exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 5",
+      "setup": "",
+      "run": "timeout 2 ./uniquemax tests/matrix5.txt",
+      "input": "",
+      "output": "40401",
+      "comparison": "Exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 6",
+      "setup": "",
+      "run": "timeout 1 ./uniquemax tests/matrix6.txt",
+      "input": "",
+      "output": "1",
+      "comparison": "Exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 7",
+      "setup": "",
+      "run": "timeout 1 ./uniquemax tests/matrix7.txt",
+      "input": "",
+      "output": "25",
+      "comparison": "Exact",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}
